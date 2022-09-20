@@ -6,12 +6,9 @@ const StyledSwitch = styled('div', {
   all: 'unset',
   width: 42,
   height: 25,
-  backgroundColor: '#000',
+  backgroundColor: 'black',
   borderRadius: '9999px',
   position: 'relative',
-  // boxShadow: `0 2px 10px #000`,
-  WebkitTapHighlightColor: 'rgba(0, 0, 0, 0)',
-  // '&:focus': { boxShadow: `0 0 0 2px black` },
   '&[data-state="checked"]': { backgroundColor: 'black' },
 });
 
