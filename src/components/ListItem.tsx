@@ -22,7 +22,7 @@ export function ListItem({
       } ${firstItem ? 'pt-0' : ''}`}
     >
       <span className="font-[400] pr-3">{label}</span>
-      <span className="text-sm font-[400]">
+      <span className="text-sm font-[400] text-right">
         {isLoading ? (
           <CircleNotch size="1rem" className="animate-spin" />
         ) : (

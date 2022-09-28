@@ -34,8 +34,6 @@ export function Dash({ handleNewAnalysis }: Props) {
           throw response;
         })
         .then((data) => {
-          console.log('🚀 ~ file: Dash.tsx ~ line 30 ~ .then ~ data', data);
-
           setWeatherData({
             humidity: data.main.humidity,
             temperature: data.main.temp - 273.15,

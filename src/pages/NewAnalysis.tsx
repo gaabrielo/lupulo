@@ -64,7 +64,9 @@ export function NewAnalysis({ handleGoBack }: Props) {
 
     try {
       fetch(
-        `http://localhost:5000/irrigation?soilMoisture=${args.soilMoisture}&secondPhase=${args.secondPhase}`
+        `${import.meta.env.VITE_API_URL}/irrigation?soilMoisture=${
+          args.soilMoisture
+        }&secondPhase=${args.secondPhase}`
       )
         .then((response) => {
           if (response.ok) {
