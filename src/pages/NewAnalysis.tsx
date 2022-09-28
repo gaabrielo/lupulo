@@ -147,7 +147,7 @@ export function NewAnalysis({ handleGoBack }: Props) {
       {responseData.message && (
         <div className="rounded-lg w-full px-5 py-4 flex gap-5 items-center shadow-lg border border-gray-100">
           <div className="rounded-full p-2 bg-[#D9FFCB]">
-            <CloudRain size="2vw" color="#0DBD83" />
+            <CloudRain size="2rem" color="#0DBD83" />
           </div>
 
           <div>
@@ -162,7 +162,7 @@ export function NewAnalysis({ handleGoBack }: Props) {
       {responseData.hours && (
         <div className="rounded-lg w-full px-5 py-4 flex gap-5 items-center shadow-lg border border-gray-100">
           <div className="rounded-full p-2 bg-[#F2F8FF]">
-            <Lightbulb size="2vw" color="#0077FF" />
+            <Lightbulb size="2rem" color="#0077FF" />
           </div>
 
           <div>

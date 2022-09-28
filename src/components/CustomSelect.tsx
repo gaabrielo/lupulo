@@ -35,8 +35,8 @@ interface Props {
 export function CustomSelect({ selected, onClick }: Props) {
   return (
     <button className="w-full px-5 py-4 bg-[#D9FFCB] flex gap-5 items-center rounded-lg relative cursor-default">
-      <div className="w-[3.5vw] h-[3.5vw] rounded-full bg-[#F1FFED] flex items-center justify-center">
-        <TreeStructure size="2.25vw" weight="light" />
+      <div className="w-[3.5rem] h-[3.5rem] rounded-full bg-[#F1FFED] flex items-center justify-center">
+        <TreeStructure size="2.25rem" weight="light" />
       </div>
 
       <h1 className="text-left">
